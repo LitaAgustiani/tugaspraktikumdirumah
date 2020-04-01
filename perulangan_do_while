@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main (){
+	/* huruf Y = program jalan
+		huruf N = program berhenti
+	*/
+	
+	char huruf = 'Y';
+	do {
+		cout << "Input huruf N untuk berhenti" <<endl;
+		cout << "Masukkan huruf ";
+		cin >> huruf;
+		
+	} while (huruf == 'Y' );
+	
+	return 0;
+}
