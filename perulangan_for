@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+	//menampilkan angka genap dan angka ganjil dari input
+	
+	int angka, angka1;
+	cout << "Masukkan angka awal " <<endl;
+	cin >> angka;
+	
+	cout << "Masukkan angka akhir " <<endl;
+	cin >> angka1;
+	
+	for (int i = angka ; i<= angka1 ; i++ ) {
+		if (i % 2 == 0) {
+			cout << i << " adalah bilangan genap" << endl;
+		}
+			
+		{
+		if (i % 2 == 1) {
+			cout << i << " adalah bilangan ganjil" << endl;
+		}
+		}
+		
+	}
+	return 0;
+}
